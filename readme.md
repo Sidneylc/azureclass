@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://githubcampus.expert/assets/images/ce-flag.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Vanilla JavaScript App</h3>
+<h3 align="center">Proyecto: Cevicheria Cevichelas</h3>
 
 <div align="center">
 
@@ -14,7 +14,8 @@
 
 ---
 
-<p align="center"> Enlace del proyecto en Azure: https://blue-dune-0a818d510.azurestaticapps.net/
+<p align="center">El objetivo de este proyecto es proporcionar una presencia digital a una cevichería de Chanchamayo en Junín.<br>
+Enlace del proyecto en Azure: https://blue-dune-0a818d510.azurestaticapps.net/
     <br> 
 </p>
 
