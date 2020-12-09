@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> Learn the skills to build and grow diverse technology communities on campus with training, mentorship, and support from GitHub.
+<p align="center"> Enlace del proyecto en Azure: https://blue-dune-0a818d510.azurestaticapps.net/
     <br> 
 </p>
 
