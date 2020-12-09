@@ -1,17 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cevicheria Cevichelas</title>
+		<!-- font-family -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap" rel="stylesheet" />
+		<!-- link del estilo css -->
+		<link rel="stylesheet" href="css/estilos.css" />
+	</head>
+	<body>
+		<!-- HEADER logo + enlaces -->
+		<header>
+			<h1 class="titulo">RESTAURANTE CEVICHELAS</h1>
+			<div class="enlaces">
+				<a class="barra" href="nosotros.html">Nosotros</a>
+				<a class="barra" href="valores.html">Valores</a>
+				<a class="barra" href="misionyvision.html">Mision y Vision</a>			
+			</div>
+		</header>
+		<main>
+			<h2 class="center-carta">Carta</h2>
+			<table id="carta">
+				<thead>
+					<tr>
+						<td class="titulo">Comienzo</td>
+						<td class="titulo">Crocantes</td>
+						<td class="titulo">Fresquito</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="2">
+							<a href="compra.html">
+								<img src="img/lechedetigre.jpg" alt="leche de tigre" />
+							</a>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Version Inicial</title>
-</head>
-
-<body>
-  <main>
-    <h1>Prueba</h1>
-  </main>
-</body>
-
+							<p><strong>Leche de tigre:</strong><br> Fresco e irresistible concentrado de nuestro....<br>S/.20</p>
+						</td>
+						<td>
+							<a href="compra.html">
+								<img src="img/chicharrondepesacado.jpg" alt="chicharron de pescado" />
+							</a>
+							<p><strong>Chicharron de pescado:</strong><br> Crocantes, calientes y sabrosos. La combinación...<br>S/.30</p>
+						</td>
+						<td>
+							<a href="compra.html">
+								<img src="img/ceviche.jpg" alt="ceviche" />
+							</a>
+							<p>
+								<strong>Ceviche de pescado o mixto:</strong><br> Nuestro ceviche de pescado o mixto, sal, limón....<br>S/.39
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="compra.html">
+								<img src="img/chicharronmixto.jpg" alt="chichcarron mixto" />
+							</a>
+							<p><strong>Chicharron mixto:</strong><br> Crocantes, calientes y sabrosos. <br>S/.30.</p>
+						</td>
+						<td>
+							<a href="compra.html">
+								<img src="img/cevicheespecial.jpg" alt="" />
+							</a>
+							<p><strong>Ceviche cevichelas:</strong><br> De pescado o mixto y bañado en una..<br>S/.42</p>
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<td class="titulo">Sopita</td>
+						<td class="titulo">Arrozcito</td>
+						<td class="titulo">Bebidas</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<a href="compra.html">
+								<img src="img/chupedepescado.jpg" alt="" />
+							</a>
+							<p><strong>Chupe de pescado:</strong><br> Pescado cocido en su propio caldo con zapallo..<br>S/.39</p>
+						</td>
+						<td>
+							<a href="compra.html">
+								<img src="img/arrozconmarisco.jpg" alt="" />
+							</a>
+							<p><strong>Arroz con marismo:</strong><br> Arroz atomatado con secretos del fundador..<br>S/.37</p>
+						</td>
+						<td>
+							<a href="compra.html">
+								<img src="img/cervezas.jpg" alt="" />
+							</a>
+							<p><strong>Cervezas:</strong><br> Pilsen,Cusqueña,Cristal,Coronas y Dorcher</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="compra.html">
+								<img src="img/sudado.jpg" alt="" />
+							</a>
+							<p><strong>Sudado:</strong><br> Pescado y/o mariscos cocidos en caldo de..<br>S/.39</p>
+						</td>
+						<td>
+							<a href="compra.html">
+								<img src="img/chaufadepescado.jpg" alt="" />
+							</a>
+							<p><strong>Chaufa de pesacado:</strong><br> Al wok con el secreto capón..<br>S/.37</p>
+						</td>
+						<td>
+							<a href="compra.html">
+								<img src="img/gaseosas.png" alt="" />
+							</a>
+							<p><strong>Gaseosas:</strong><br> De todas las medidas</p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<a href="compra.html">
+								<img src="img/chilcacno.jpg" alt="" />
+							</a>
+							<p><strong>Chilcano:</strong><br> Pescado cocido con caldo.. <br>S/.25</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<hr />
+			<hr />
+		</main>
+		<footer>
+			<div class="contenedor-footer">
+				<h3 class="titulo-ubiacion">Ubicacion</h3>
+				<div class="direccion">
+					<p class="calle">Av. Fray Jeronimo Jimenez <br />Calle 9 de Julio</p>
+					<p class="telefono">947 951 626</p>
+					<p class="correo">correo cevichelas@gmail.com</p>
+				</div>
+				<div class="horarios">
+					<h4 class="center-carta">Horarios</h4>
+					<p class="semana">
+						Lunes a Viernes <br />
+						8:00am-9:00pm
+					</p>
+					<p class="finsemana">
+						Sabado y Domingos <br />
+						11:00am-11:00pm
+					</p>
+				</div>
+			</div>
+			<div class="locales">
+				<h2>LOCALES</h2>
+				<p>Departamento de Junin , Provincia de Chanchamayo, Distrito de Chanchamayo</p>
+			</div>
+			<div class="footer">
+				<p>&reg DELIVERY 947 951 626 TU DECiDES COMO DISFRUTAR #CEVICHELASENCASA</p>
+			</div>
+		</footer>
+	</body>
 </html>
